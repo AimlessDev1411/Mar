@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoseccion"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Ejercicios">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_cuento">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPlay1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="1"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_redondeado_white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <Button
+                    android:id="@+id/btnPlay2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="2"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_redondeado_white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <Button
+                    android:id="@+id/btnPlay3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="3"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_redondeado_white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <Button
+                    android:id="@+id/btnPlay4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="4"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_redondeado_white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <Button
+                    android:id="@+id/btnPlay5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="5"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_redondeado_white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <Button
+                    android:id="@+id/btnPlay6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="6"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_redondeado_white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <Button
+                    android:id="@+id/btnPlay7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="7"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_redondeado_white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Practica cada ejercicio 15 veces al dia"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/azul"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_marginTop="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/TxtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textSize="20sp"/>
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/Txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="arial"
+                android:text=""
+                android:textSize="20sp" />
+            <VideoView
+                android:id="@+id/VVEjercicios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnPlayPause"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/play" />
+
+            <ImageView
+                android:id="@+id/ImageV1"
+                android:layout_width="320dp"
+                android:layout_height="500dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

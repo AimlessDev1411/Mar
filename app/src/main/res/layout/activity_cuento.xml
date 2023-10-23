@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoseccion"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Cuento">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El Arrecife"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_marginTop="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Autor: Julio Alexander Barrera Acosta"
+                android:layout_marginTop="65dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pescador"/>
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/cuentoArrecife"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="arial"
+                android:text="@string/arrecife"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:text="Escucha cada icono"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/azul"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_cuento">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPlayTortuga"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:background="@drawable/tortuga"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:id="@+id/btnPlayArrecife"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:background="@drawable/arrecife"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:id="@+id/btnPlayTiburon"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:background="@drawable/tiburon"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:id="@+id/btnPlayPescador"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:background="@drawable/pescador"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:id="@+id/btnPlayRed"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:background="@drawable/red"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:id="@+id/btnPlayBarco"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:background="@drawable/barco"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+
+</LinearLayout>

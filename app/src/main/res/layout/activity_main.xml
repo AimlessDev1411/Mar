@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCFFFF"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/f"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d8111111"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="¡Bienvenido!"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_marginVertical="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Elige tu avatar:"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginVertical="10dp">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/avatar1"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            android:background="@drawable/imagenradio"
+                            android:button="@drawable/arrecife"
+                            android:layout_marginHorizontal="10dp">
+                        </RadioButton>
+                        <RadioButton
+                            android:id="@+id/avatar2"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            android:background="@drawable/imagenradio"
+                            android:button="@drawable/capitan"
+                            android:layout_marginHorizontal="10dp">
+                        </RadioButton>
+                        <RadioButton
+                            android:id="@+id/avatar3"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            android:background="@drawable/imagenradio"
+                            android:button="@drawable/rana2"
+                            android:layout_marginHorizontal="10dp">
+                        </RadioButton>
+                        <RadioButton
+                            android:id="@+id/avatar4"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            android:background="@drawable/imagenradio"
+                            android:button="@drawable/tiburon"
+                            android:layout_marginHorizontal="10dp">
+                        </RadioButton>
+
+                    </RadioGroup>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usuario"
+        android:hint="Ingresa un Nombre"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="15dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#ccc"/>
+
+        <Button
+            android:id="@+id/iniciar_sesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_fondo_color"
+            android:text="COMENZAR"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            />
+
+
+        <RelativeLayout
+        android:layout_width="144dp"
+        android:layout_height="72dp"
+            android:layout_marginTop="160dp">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="false"
+            android:background="@drawable/circulo_image" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginBottom="11dp"
+            android:src="@drawable/icono" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="80dp"
+                android:text="JJ"
+                android:textStyle="italic"
+                android:textSize="30dp"/>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

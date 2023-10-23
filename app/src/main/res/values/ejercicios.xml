@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ejercicio1_1">Ejercicio 1</string>
+    <string name="ejercicio1_2">1. Respiramos profundo por la nariz.
+        2.Tocamos con nuestra punta de la lengua los dientes incisivos. 3.Soltamos el aire y observamos
+    como nuestra punta de la lengua se mueve frente a un espejo</string>
+    <string name="ejercicio2_1">Ejercicio 2</string>
+    <string name="ejercicio2_2">Colocamos la lengua en las arrugas del paladar (alveolos) haciendo fuerza,
+        inspiramos por la nariz y soltamos todo el aire sin despegar la lengua del paladar.
+        Con este ejercicio se consigue la vibración.</string>
+    <string name="ejercicio3_1">Ejercicio 3</string>
+    <string name="ejercicio3_2">Pronunciar palabras que tengan erre simple /r/ al final de palabra o
+        sílaba como por ejemplo “cantar, barco, mar” y las pronunciaremos de la siguiente manera:
+        Cantar, cantarrr, cantarrrr||
+        Barco, barrrco, barrrrrrco||
+        Mar, marr, marrrrr||
+        A continuación, haremos el ejercicio anterior separando las sílabas. De esta manera poco a
+        poco iremos consiguiendo que emita de forma aislada el fonema /rr/ por ejemplo:
+        Can-tar, can-tarr, can-tarrrr||
+        Bar-co, barr-co, barrr-co</string>
+    <string name="ejercicio4_1">Ejercicio 4</string>
+    <string name="ejercicio4_2">Colocamos la lengua en la parte trasera de nuestros dientes presioandola
+    sin dejarla salir, esto nos ayuda a darle fuerza a la lengua</string>
+    <string name="ejercicio5_1">Ejercicio 5</string>
+    <string name="ejercicio5_2">Colocamos nuestra lengua cerca del paladar y expulsamos aire para
+        generar una vibracion</string>
+    <string name="ejercicio6_1">Ejercicio 6</string>
+    <string name="ejercicio6_2">Hacemos en repetidas ocaciones sonidos debiles como ri golpenado la lengua
+    con nuestro paladar (subimos y bajamos soltando aire)</string>
+    <string name="ejercicio7_1">Ejercicio 7</string>
+    <string name="ejercicio7_2">Jalamos la lengua hacia atras cerrando un poco la boca para soltar
+        el aire de manera veloz y generar una vibracion</string>
+</resources>
